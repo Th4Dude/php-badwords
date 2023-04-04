@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="riceveDati.php" method="GET">
+        <input type="text" name="frase">
+        <input type="text" name="badword">
+        <button>invia</button>
+    </form>
 </body>
 </html>
